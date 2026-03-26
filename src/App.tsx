@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/providers/theme-provider"
 import { ToastProvider } from "@/styles/v1"
 import { ShowcasePage } from "@/features/showcase/pages/showcase-page"
 import { MockSitePage } from "@/features/mock-site/pages/mock-site-page"
+import { ShowcaseV2Page } from "@/features/showcase-v2/pages/showcase-v2-page"
 
 function AppNav() {
   return (
@@ -18,7 +19,19 @@ function AppNav() {
           }`
         }
       >
-        Component Showcase
+        v1 Showcase
+      </NavLink>
+      <NavLink
+        to="/v2"
+        className={({ isActive }) =>
+          `px-3 py-1 rounded transition-colors ${
+            isActive
+              ? "text-primary font-medium bg-primary/10"
+              : "text-on-surface-variant hover:text-on-surface hover:bg-on-surface/8"
+          }`
+        }
+      >
+        v2 Showcase 🦖
       </NavLink>
       <NavLink
         to="/demo"
@@ -44,6 +57,7 @@ export function App() {
         <div className="pt-8">
           <Routes>
             <Route path="/" element={<ShowcasePage />} />
+            <Route path="/v2" element={<ShowcaseV2Page />} />
             <Route path="/demo" element={<MockSitePage />} />
           </Routes>
         </div>

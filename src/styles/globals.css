@@ -163,6 +163,104 @@
   --surface-container-highest:  #363438;  /* neutral-22 */
 }
 
+/* ─── v2 Yoshi/Nintendo theme — light ─── */
+:root.theme-v2 {
+  --background:           #F4FFF5;
+  --foreground:           #1A1F1B;
+  --card:                 #ffffff;
+  --card-foreground:      #1A1F1B;
+  --popover:              #ffffff;
+  --popover-foreground:   #1A1F1B;
+  --primary:              #2D8E35;  /* Yoshi body green */
+  --primary-foreground:   #ffffff;
+  --secondary:            #FFD43B;  /* Yoshi egg yellow */
+  --secondary-foreground: #3D2E00;
+  --muted:                #E0F2E1;  /* Pale green */
+  --muted-foreground:     #3D5E40;
+  --accent:               #E91E8C;  /* Hot pink egg spots */
+  --accent-foreground:    #ffffff;
+  --destructive:          #D32F2F;
+  --destructive-foreground: #ffffff;
+  --border:               #6ABB6F;  /* Green border */
+  --input:                #6ABB6F;
+  --ring:                 #2D8E35;
+
+  --primary-container:          #C8F0CA;
+  --on-primary-container:       #0A3D0E;
+  --secondary-container:        #FFF3BD;
+  --on-secondary-container:     #3D2E00;
+  --on-secondary:               #3D2E00;
+  --tertiary:                   #E91E8C;
+  --on-tertiary:                #ffffff;
+  --tertiary-container:         #FFD6EC;
+  --on-tertiary-container:      #4D0025;
+  --error-container:            #FFDAD6;
+  --on-error-container:         #410002;
+  --surface-tint:               #2D8E35;
+  --inverse-surface:            #1A3D1C;
+  --inverse-on-surface:         #EEF7EE;
+  --inverse-primary:            #86D18A;
+  --outline-variant:            #A5D7A7;
+  --surface:                    #F4FFF5;
+  --on-surface:                 #1A1F1B;
+  --on-surface-variant:         #3D5E40;
+  --outline:                    #6ABB6F;
+  --surface-container-lowest:   #ffffff;
+  --surface-container-low:      #EDF7EE;
+  --surface-container:          #E3F2E4;
+  --surface-container-high:     #D6EBD7;
+  --surface-container-highest:  #C8E4CA;
+}
+
+/* ─── v2 Yoshi/Nintendo theme — dark ─── */
+:root.theme-v2.dark {
+  --background:           #0B180C;  /* Deep forest */
+  --foreground:           #D1F0D3;
+  --card:                 #0B180C;
+  --card-foreground:      #D1F0D3;
+  --popover:              #122014;
+  --popover-foreground:   #D1F0D3;
+  --primary:              #86D18A;  /* Bright Yoshi green */
+  --primary-foreground:   #0A3D0E;
+  --secondary:            #FFE566;  /* Bright egg yellow */
+  --secondary-foreground: #3D2E00;
+  --muted:                #1A3D1C;
+  --muted-foreground:     #86C98A;
+  --accent:               #F48FB1;  /* Bright pink */
+  --accent-foreground:    #4D0025;
+  --destructive:          #CF6679;
+  --destructive-foreground: #1A0006;
+  --border:               #2D6E35;
+  --input:                #2D6E35;
+  --ring:                 #86D18A;
+
+  --primary-container:          #1A6620;
+  --on-primary-container:       #B3E5B7;
+  --secondary-container:        #5C4A00;
+  --on-secondary-container:     #FFE566;
+  --on-secondary:               #FFE566;
+  --tertiary:                   #F48FB1;
+  --on-tertiary:                #4D0025;
+  --tertiary-container:         #7C2D4A;
+  --on-tertiary-container:      #FFD6EC;
+  --error-container:            #93000A;
+  --on-error-container:         #FFDAD6;
+  --surface-tint:               #86D18A;
+  --inverse-surface:            #D1F0D3;
+  --inverse-on-surface:         #1A3D1C;
+  --inverse-primary:            #2D8E35;
+  --outline-variant:            #1A3D1C;
+  --surface:                    #0B180C;
+  --on-surface:                 #D1F0D3;
+  --on-surface-variant:         #86C98A;
+  --outline:                    #2D6E35;
+  --surface-container-lowest:   #060E07;
+  --surface-container-low:      #0B180C;
+  --surface-container:          #122014;
+  --surface-container-high:     #1A3D1C;
+  --surface-container-highest:  #235626;
+}
+
 /* ─── Base layer ─── */
 @layer base {
   * {
