@@ -163,8 +163,7 @@
   --surface-container-highest:  #363438;  /* neutral-22 */
 }
 
-/* ─── v2 Yoshi/Nintendo theme — light ─── */
-:root.theme-v2 {
+.theme-v2 {
   --background:           #F4FFF5;
   --foreground:           #1A1F1B;
   --card:                 #ffffff;
@@ -213,7 +212,7 @@
 }
 
 /* ─── v2 Yoshi/Nintendo theme — dark ─── */
-:root.theme-v2.dark {
+.dark .theme-v2 {
   --background:           #0B180C;  /* Deep forest */
   --foreground:           #D1F0D3;
   --card:                 #0B180C;
@@ -260,7 +259,6 @@
   --surface-container-high:     #1A3D1C;
   --surface-container-highest:  #235626;
 }
-
 /* ─── Base layer ─── */
 @layer base {
   * {

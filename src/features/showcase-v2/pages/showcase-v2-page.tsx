@@ -65,40 +65,42 @@ export function ShowcaseV2Page() {
   }, [])
 
   return (
-    <div className="flex h-[calc(100vh-2rem)] bg-background">
-      <ShowcaseSidebar items={SECTIONS} activeId={activeId} className="sticky top-8 h-full" />
+    <div className="theme-v2">
+      <div className="flex h-[calc(100vh-2rem)] bg-background">
+        <ShowcaseSidebar items={SECTIONS} activeId={activeId} className="sticky top-8 h-full" />
 
-      <main className="flex-1 overflow-y-auto">
-        {/* Header */}
-        <div className="sticky top-0 z-10 flex items-center justify-between px-8 py-3 bg-background/90 backdrop-blur border-b-2 border-border">
-          <div className="flex items-center gap-3">
-            <span className="text-base font-bold text-primary">🦖</span>
-            <h1 className="text-sm font-bold text-on-surface">v2 — Yoshi Theme Showcase</h1>
+        <main className="flex-1 overflow-y-auto">
+          {/* Header */}
+          <div className="sticky top-0 z-10 flex items-center justify-between px-8 py-3 bg-background/90 backdrop-blur border-b-2 border-border">
+            <div className="flex items-center gap-3">
+              <span className="text-base font-bold text-primary">🦖</span>
+              <h1 className="text-sm font-bold text-on-surface">v2 — Yoshi Theme Showcase</h1>
+            </div>
+            <Switch
+              label={resolvedTheme === "dark" ? "Dark" : "Light"}
+              checked={resolvedTheme === "dark"}
+              onCheckedChange={toggleTheme}
+              labelPosition="left"
+            />
           </div>
-          <Switch
-            label={resolvedTheme === "dark" ? "Dark" : "Light"}
-            checked={resolvedTheme === "dark"}
-            onCheckedChange={toggleTheme}
-            labelPosition="left"
-          />
-        </div>
 
-        <div className="px-8 py-4 max-w-4xl">
-          <ButtonShowcase />
-          <FabShowcase />
-          <SwitchShowcase />
-          <FilterChipShowcase />
-          <TextFieldShowcase />
-          <DropdownShowcase />
-          <CardShowcase />
-          <RadioButtonShowcase />
-          <TableShowcase />
-          <ModalShowcase />
-          <ChipShowcase />
-          <BreadcrumbShowcase />
-          <ToastShowcase />
-        </div>
-      </main>
+          <div className="px-8 py-4 max-w-4xl">
+            <ButtonShowcase />
+            <FabShowcase />
+            <SwitchShowcase />
+            <FilterChipShowcase />
+            <TextFieldShowcase />
+            <DropdownShowcase />
+            <CardShowcase />
+            <RadioButtonShowcase />
+            <TableShowcase />
+            <ModalShowcase />
+            <ChipShowcase />
+            <BreadcrumbShowcase />
+            <ToastShowcase />
+          </div>
+        </main>
+      </div>
     </div>
   )
 }
