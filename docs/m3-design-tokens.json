@@ -1,0 +1,469 @@
+{
+  "md": {
+    "ref": {
+      "palette": {
+        "primary": {
+          "0": { "value": "#000000", "type": "color", "description": "Primary 0" },
+          "10": { "value": "#21005d", "type": "color", "description": "Primary 10" },
+          "20": { "value": "#381e72", "type": "color", "description": "Primary 20" },
+          "30": { "value": "#4f378b", "type": "color", "description": "Primary 30" },
+          "40": { "value": "#6750a4", "type": "color", "description": "Primary 40" },
+          "50": { "value": "#7f67be", "type": "color", "description": "Primary 50" },
+          "60": { "value": "#9a82db", "type": "color", "description": "Primary 60" },
+          "70": { "value": "#b69df8", "type": "color", "description": "Primary 70" },
+          "80": { "value": "#d0bcff", "type": "color", "description": "Primary 80" },
+          "90": { "value": "#eaddff", "type": "color", "description": "Primary 90" },
+          "95": { "value": "#f6edff", "type": "color", "description": "Primary 95" },
+          "99": { "value": "#fffbfe", "type": "color", "description": "Primary 99" },
+          "100": { "value": "#ffffff", "type": "color", "description": "Primary 100" }
+        },
+        "secondary": {
+          "0": { "value": "#000000", "type": "color", "description": "Secondary 0" },
+          "10": { "value": "#1d192b", "type": "color", "description": "Secondary 10" },
+          "20": { "value": "#332d41", "type": "color", "description": "Secondary 20" },
+          "30": { "value": "#4a4458", "type": "color", "description": "Secondary 30" },
+          "40": { "value": "#625b71", "type": "color", "description": "Secondary 40" },
+          "50": { "value": "#7a7289", "type": "color", "description": "Secondary 50" },
+          "60": { "value": "#958da5", "type": "color", "description": "Secondary 60" },
+          "70": { "value": "#b0a7c0", "type": "color", "description": "Secondary 70" },
+          "80": { "value": "#ccc2dc", "type": "color", "description": "Secondary 80" },
+          "90": { "value": "#e8def8", "type": "color", "description": "Secondary 90" },
+          "95": { "value": "#f6edff", "type": "color", "description": "Secondary 95" },
+          "99": { "value": "#fffbfe", "type": "color", "description": "Secondary 99" },
+          "100": { "value": "#ffffff", "type": "color", "description": "Secondary 100" }
+        },
+        "tertiary": {
+          "0": { "value": "#000000", "type": "color", "description": "Tertiary 0" },
+          "10": { "value": "#31111d", "type": "color", "description": "Tertiary 10" },
+          "20": { "value": "#492532", "type": "color", "description": "Tertiary 20" },
+          "30": { "value": "#633b48", "type": "color", "description": "Tertiary 30" },
+          "40": { "value": "#7d5260", "type": "color", "description": "Tertiary 40" },
+          "50": { "value": "#986977", "type": "color", "description": "Tertiary 50" },
+          "60": { "value": "#b58392", "type": "color", "description": "Tertiary 60" },
+          "70": { "value": "#d29dac", "type": "color", "description": "Tertiary 70" },
+          "80": { "value": "#efb8c8", "type": "color", "description": "Tertiary 80" },
+          "90": { "value": "#ffd8e4", "type": "color", "description": "Tertiary 90" },
+          "95": { "value": "#ffecf1", "type": "color", "description": "Tertiary 95" },
+          "99": { "value": "#fffbfa", "type": "color", "description": "Tertiary 99" },
+          "100": { "value": "#ffffff", "type": "color", "description": "Tertiary 100" }
+        },
+        "error": {
+          "0": { "value": "#000000", "type": "color", "description": "Error 0" },
+          "10": { "value": "#410e0b", "type": "color", "description": "Error 10" },
+          "20": { "value": "#601410", "type": "color", "description": "Error 20" },
+          "30": { "value": "#8c1d18", "type": "color", "description": "Error 30" },
+          "40": { "value": "#b3261e", "type": "color", "description": "Error 40" },
+          "50": { "value": "#dc362e", "type": "color", "description": "Error 50" },
+          "60": { "value": "#e46962", "type": "color", "description": "Error 60" },
+          "70": { "value": "#ec928e", "type": "color", "description": "Error 70" },
+          "80": { "value": "#f2b8b5", "type": "color", "description": "Error 80" },
+          "90": { "value": "#f9dedc", "type": "color", "description": "Error 90" },
+          "95": { "value": "#fceeee", "type": "color", "description": "Error 95" },
+          "99": { "value": "#fffbf9", "type": "color", "description": "Error 99" },
+          "100": { "value": "#ffffff", "type": "color", "description": "Error 100" }
+        },
+        "neutral": {
+          "0": { "value": "#000000", "type": "color", "description": "Neutral 0" },
+          "10": { "value": "#1c1b1f", "type": "color", "description": "Neutral 10" },
+          "20": { "value": "#313033", "type": "color", "description": "Neutral 20" },
+          "30": { "value": "#484649", "type": "color", "description": "Neutral 30" },
+          "40": { "value": "#605d62", "type": "color", "description": "Neutral 40" },
+          "50": { "value": "#787579", "type": "color", "description": "Neutral 50" },
+          "60": { "value": "#939094", "type": "color", "description": "Neutral 60" },
+          "70": { "value": "#aeaaae", "type": "color", "description": "Neutral 70" },
+          "80": { "value": "#c9c5ca", "type": "color", "description": "Neutral 80" },
+          "90": { "value": "#e6e1e5", "type": "color", "description": "Neutral 90" },
+          "95": { "value": "#f4eff4", "type": "color", "description": "Neutral 95" },
+          "99": { "value": "#fffbfe", "type": "color", "description": "Neutral 99" },
+          "100": { "value": "#ffffff", "type": "color", "description": "Neutral 100" }
+        },
+        "neutral-variant": {
+          "0": { "value": "#000000", "type": "color", "description": "Neutral Variant 0" },
+          "10": { "value": "#1d1a22", "type": "color", "description": "Neutral Variant 10" },
+          "20": { "value": "#322f37", "type": "color", "description": "Neutral Variant 20" },
+          "30": { "value": "#49454f", "type": "color", "description": "Neutral Variant 30" },
+          "40": { "value": "#605d66", "type": "color", "description": "Neutral Variant 40" },
+          "50": { "value": "#79747e", "type": "color", "description": "Neutral Variant 50" },
+          "60": { "value": "#938f99", "type": "color", "description": "Neutral Variant 60" },
+          "70": { "value": "#aea9b4", "type": "color", "description": "Neutral Variant 70" },
+          "80": { "value": "#cac4d0", "type": "color", "description": "Neutral Variant 80" },
+          "90": { "value": "#e7e0ec", "type": "color", "description": "Neutral Variant 90" },
+          "95": { "value": "#f5eefa", "type": "color", "description": "Neutral Variant 95" },
+          "99": { "value": "#fffbfe", "type": "color", "description": "Neutral Variant 99" },
+          "100": { "value": "#ffffff", "type": "color", "description": "Neutral Variant 100" }
+        },
+        "black": { "value": "#000000", "type": "color", "description": "Black" },
+        "white": { "value": "#ffffff", "type": "color", "description": "White" }
+      },
+      "typeface": {
+        "brand": { "value": "Roboto", "type": "fontFamilies", "description": "Brand typeface" },
+        "plain": { "value": "Roboto", "type": "fontFamilies", "description": "Plain typeface" },
+        "weight": {
+          "regular": { "value": "400", "type": "fontWeights", "description": "Regular weight" },
+          "medium": { "value": "500", "type": "fontWeights", "description": "Medium weight" },
+          "bold": { "value": "700", "type": "fontWeights", "description": "Bold weight" }
+        }
+      }
+    },
+    "sys": {
+      "color": {
+        "light": {
+          "primary": {
+            "value": "{md.ref.palette.primary.40}",
+            "type": "color",
+            "description": "Primary"
+          },
+          "on-primary": {
+            "value": "{md.ref.palette.primary.100}",
+            "type": "color",
+            "description": "On primary"
+          },
+          "primary-container": {
+            "value": "{md.ref.palette.primary.90}",
+            "type": "color",
+            "description": "Primary container"
+          },
+          "on-primary-container": {
+            "value": "{md.ref.palette.primary.10}",
+            "type": "color",
+            "description": "On primary container"
+          },
+          "inverse-primary": {
+            "value": "{md.ref.palette.primary.80}",
+            "type": "color",
+            "description": "Inverse primary"
+          },
+          "secondary": {
+            "value": "{md.ref.palette.secondary.40}",
+            "type": "color",
+            "description": "Secondary"
+          },
+          "on-secondary": {
+            "value": "{md.ref.palette.secondary.100}",
+            "type": "color",
+            "description": "On secondary"
+          },
+          "secondary-container": {
+            "value": "{md.ref.palette.secondary.90}",
+            "type": "color",
+            "description": "Secondary container"
+          },
+          "on-secondary-container": {
+            "value": "{md.ref.palette.secondary.10}",
+            "type": "color",
+            "description": "On secondary container"
+          },
+          "tertiary": {
+            "value": "{md.ref.palette.tertiary.40}",
+            "type": "color",
+            "description": "Tertiary"
+          },
+          "on-tertiary": {
+            "value": "{md.ref.palette.tertiary.100}",
+            "type": "color",
+            "description": "On tertiary"
+          },
+          "tertiary-container": {
+            "value": "{md.ref.palette.tertiary.90}",
+            "type": "color",
+            "description": "Tertiary container"
+          },
+          "on-tertiary-container": {
+            "value": "{md.ref.palette.tertiary.10}",
+            "type": "color",
+            "description": "On tertiary container"
+          },
+          "error": {
+            "value": "{md.ref.palette.error.40}",
+            "type": "color",
+            "description": "Error"
+          },
+          "on-error": {
+            "value": "{md.ref.palette.error.100}",
+            "type": "color",
+            "description": "On error"
+          },
+          "error-container": {
+            "value": "{md.ref.palette.error.90}",
+            "type": "color",
+            "description": "Error container"
+          },
+          "on-error-container": {
+            "value": "{md.ref.palette.error.10}",
+            "type": "color",
+            "description": "On error container"
+          },
+          "background": {
+            "value": "{md.ref.palette.neutral.99}",
+            "type": "color",
+            "description": "Background"
+          },
+          "on-background": {
+            "value": "{md.ref.palette.neutral.10}",
+            "type": "color",
+            "description": "On background"
+          },
+          "surface": {
+            "value": "{md.ref.palette.neutral.99}",
+            "type": "color",
+            "description": "Surface"
+          },
+          "on-surface": {
+            "value": "{md.ref.palette.neutral.10}",
+            "type": "color",
+            "description": "On surface"
+          },
+          "surface-variant": {
+            "value": "{md.ref.palette.neutral-variant.90}",
+            "type": "color",
+            "description": "Surface Variant"
+          },
+          "on-surface-variant": {
+            "value": "{md.ref.palette.neutral-variant.30}",
+            "type": "color",
+            "description": "On surface variant"
+          },
+          "surface-tint": {
+            "value": "{md.ref.palette.primary.40}",
+            "type": "color",
+            "description": "Surface tint"
+          },
+          "inverse-surface": {
+            "value": "{md.ref.palette.neutral.20}",
+            "type": "color",
+            "description": "Inverse surface"
+          },
+          "inverse-on-surface": {
+            "value": "{md.ref.palette.neutral.95}",
+            "type": "color",
+            "description": "Inverse on surface"
+          },
+          "outline": {
+            "value": "{md.ref.palette.neutral-variant.50}",
+            "type": "color",
+            "description": "Outline"
+          },
+          "shadow": {
+            "value": "{md.ref.palette.neutral.0}",
+            "type": "color",
+            "description": "Shadow"
+          }
+        },
+        "dark": {
+          "primary": {
+            "value": "{md.ref.palette.primary.80}",
+            "type": "color",
+            "description": "Primary"
+          },
+          "on-primary": {
+            "value": "{md.ref.palette.primary.20}",
+            "type": "color",
+            "description": "On primary"
+          },
+          "primary-container": {
+            "value": "{md.ref.palette.primary.30}",
+            "type": "color",
+            "description": "Primary container"
+          },
+          "on-primary-container": {
+            "value": "{md.ref.palette.primary.90}",
+            "type": "color",
+            "description": "On primary container"
+          },
+          "inverse-primary": {
+            "value": "{md.ref.palette.primary.40}",
+            "type": "color",
+            "description": "Inverse primary"
+          },
+          "secondary": {
+            "value": "{md.ref.palette.secondary.80}",
+            "type": "color",
+            "description": "Secondary"
+          },
+          "on-secondary": {
+            "value": "{md.ref.palette.secondary.20}",
+            "type": "color",
+            "description": "On secondary"
+          },
+          "secondary-container": {
+            "value": "{md.ref.palette.secondary.30}",
+            "type": "color",
+            "description": "Secondary container"
+          },
+          "on-secondary-container": {
+            "value": "{md.ref.palette.secondary.90}",
+            "type": "color",
+            "description": "On secondary container"
+          },
+          "tertiary": {
+            "value": "{md.ref.palette.tertiary.80}",
+            "type": "color",
+            "description": "Tertiary"
+          },
+          "on-tertiary": {
+            "value": "{md.ref.palette.tertiary.20}",
+            "type": "color",
+            "description": "On tertiary"
+          },
+          "tertiary-container": {
+            "value": "{md.ref.palette.tertiary.30}",
+            "type": "color",
+            "description": "Tertiary container"
+          },
+          "on-tertiary-container": {
+            "value": "{md.ref.palette.tertiary.90}",
+            "type": "color",
+            "description": "On tertiary container"
+          },
+          "error": {
+            "value": "{md.ref.palette.error.80}",
+            "type": "color",
+            "description": "Error"
+          },
+          "on-error": {
+            "value": "{md.ref.palette.error.20}",
+            "type": "color",
+            "description": "On error"
+          },
+          "error-container": {
+            "value": "{md.ref.palette.error.30}",
+            "type": "color",
+            "description": "Error container"
+          },
+          "on-error-container": {
+            "value": "{md.ref.palette.error.80}",
+            "type": "color",
+            "description": "On error container"
+          },
+          "background": {
+            "value": "{md.ref.palette.neutral.10}",
+            "type": "color",
+            "description": "Background"
+          },
+          "on-background": {
+            "value": "{md.ref.palette.neutral.90}",
+            "type": "color",
+            "description": "On background"
+          },
+          "surface": {
+            "value": "{md.ref.palette.neutral.10}",
+            "type": "color",
+            "description": "Surface"
+          },
+          "on-surface": {
+            "value": "{md.ref.palette.neutral.90}",
+            "type": "color",
+            "description": "On surface"
+          },
+          "surface-variant": {
+            "value": "{md.ref.palette.neutral-variant.30}",
+            "type": "color",
+            "description": "Surface Variant"
+          },
+          "on-surface-variant": {
+            "value": "{md.ref.palette.neutral-variant.80}",
+            "type": "color",
+            "description": "On surface variant"
+          },
+          "surface-tint": {
+            "value": "{md.ref.palette.primary.40}",
+            "type": "color",
+            "description": "Surface tint"
+          },
+          "inverse-surface": {
+            "value": "{md.ref.palette.neutral.90}",
+            "type": "color",
+            "description": "Inverse surface"
+          },
+          "inverse-on-surface": {
+            "value": "{md.ref.palette.neutral.20}",
+            "type": "color",
+            "description": "Inverse on surface"
+          },
+          "outline": {
+            "value": "{md.ref.palette.neutral-variant.60}",
+            "type": "color",
+            "description": "Outline"
+          },
+          "shadow": {
+            "value": "{md.ref.palette.neutral.0}",
+            "type": "color",
+            "description": "Shadow"
+          }
+        }
+      },
+      "typescale": {
+        "display": {
+          "large": {
+            "family": { "value": "{md.ref.typeface.brand}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          },
+          "medium": {
+            "family": { "value": "{md.ref.typeface.brand}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          },
+          "small": {
+            "family": { "value": "{md.ref.typeface.brand}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          }
+        },
+        "headline": {
+          "large": {
+            "family": { "value": "{md.ref.typeface.brand}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          },
+          "medium": {
+            "family": { "value": "{md.ref.typeface.brand}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          },
+          "small": {
+            "family": { "value": "{md.ref.typeface.brand}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          }
+        },
+        "title": {
+          "large": {
+            "family": { "value": "{md.ref.typeface.brand}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          },
+          "medium": {
+            "family": { "value": "{md.ref.typeface.plain}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.medium}", "type": "fontWeights" }
+          },
+          "small": {
+            "family": { "value": "{md.ref.typeface.plain}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.medium}", "type": "fontWeights" }
+          }
+        },
+        "body": {
+          "large": {
+            "family": { "value": "{md.ref.typeface.plain}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          },
+          "medium": {
+            "family": { "value": "{md.ref.typeface.plain}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          },
+          "small": {
+            "family": { "value": "{md.ref.typeface.plain}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.regular}", "type": "fontWeights" }
+          }
+        },
+        "label": {
+          "large": {
+            "family": { "value": "{md.ref.typeface.plain}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.medium}", "type": "fontWeights" }
+          },
+          "medium": {
+            "family": { "value": "{md.ref.typeface.plain}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.medium}", "type": "fontWeights" }
+          },
+          "small": {
+            "family": { "value": "{md.ref.typeface.plain}", "type": "fontFamilies" },
+            "weight": { "value": "{md.ref.typeface.weight.medium}", "type": "fontWeights" }
+          }
+        }
+      }
+    }
+  }
+}
